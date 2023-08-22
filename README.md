@@ -32,7 +32,8 @@ rcon.connect().then(() => {
 ```
 
 The above code connects to the server, authenticates, and then sends the `ServerInfo` command. The response is then printed to the console.
-
+### Reminder
+To save resources on the server, don't constantly close and open new connections, instead keep one open and send commands as needed.
 ## Commands & Events
 
 For every command, the event has the same name, just use:
