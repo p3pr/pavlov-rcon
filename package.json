@@ -6,7 +6,21 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "p3pr",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/p3pr/pavlov-rcon.git"
+  },
+  "keywords": [
+    "pavlov",
+    "vr",
+    "rcon",
+    "pavlovvr",
+    "pavlov vr",
+    "pavlov rcon",
+    "pavlovvr rcon",
+    "pavlov vr rcon"
+  ],
+  "author": "benjamint08",
   "license": "ISC",
   "dependencies": {
     "md5": "^2.3.0",
