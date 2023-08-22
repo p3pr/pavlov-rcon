@@ -11,7 +11,7 @@ npm install pavlov-rcon
 ## Usage
 
 ```javascript
-const PavlovRCON = require('./index');
+const PavlovRCON = require('pavlov-rcon');
 const rcon = new PavlovRCON('0.0.0.0', 9100, 'password');
 
 rcon.connect().then(() => {
